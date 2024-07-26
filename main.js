@@ -2,12 +2,12 @@ const express = require('express');
 const axios = require('axios');
 const cheerio = require('cheerio');
 const app = express();
-const url = 'https://parkplus.io/fuel-price/kerala';
+const url = 'https://parkplus.io/fuel-price/petrol-diesel-price-in-kottayam';
 async function getFuelPrice() {
   try {
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
-    const priceSpan = $('span[itemprop="description"]').first();
+    const priceSpan = $('td[itemprop="description"]').eq(1);
     if (priceSpan.length) {
       const fuelPrice = priceSpan.text().trim();
       return { fuelPrice };
