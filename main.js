@@ -6,8 +6,8 @@ const url = 'https://parkplus.io/fuel-price/petrol-diesel-price-in-kottayam';
 async function getFuelPrice() {
   try {
     const response = await axios.get(url);
-    const $ = cheerio.load(response.data);
-    const priceSpan = $('td[itemprop="description"]').eq(1);
+    const load = cheerio.load(response.data);
+    const priceSpan = load('td[itemprop="description"]').eq(1);
     if (priceSpan.length) {
       const fuelPrice = priceSpan.text().trim();
       return { fuelPrice };
