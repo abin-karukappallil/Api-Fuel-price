@@ -1,6 +1,6 @@
 # Fuel Price API
 
-This repository contains a simple Express.js application that scrapes the current fuel price in Kottayam from a specified webpage. The API provides the latest fuel price as JSON data.
+This repository contains a simple Express.js application that API provides the latest fuel price as JSON data.
 
 ## API Endpoint
 
@@ -12,7 +12,9 @@ https://api.abinthomas.dev/api/fuel-price
 
 ```http
 GET https://api.abinthomas.dev/api/fuel-price
-
+```
+### Example Response
+```http
 {
   "fuelPrice": "105.67"
 }
