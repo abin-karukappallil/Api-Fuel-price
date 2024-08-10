@@ -49,7 +49,7 @@ http://localhost:8080/api/fuel-price
 
 Here are some planned enhancements and additional features for future releases:
 
--**Region-Wise Price List:** Expand the API to support querying fuel prices for multiple regions. Users will be able to      
+* **Region-Wise Price List:** Expand the API to support querying fuel prices for multiple regions. Users will be able to      
                              retrieve fuel prices based on specific locations or regions.
 
 ## License
