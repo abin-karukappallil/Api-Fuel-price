@@ -1,4 +1,4 @@
-# Fuel Price API
+# ⛽Fuel Price API
 
 This repository contains a simple Express.js application that API provides the latest fuel price as JSON data.
 
@@ -19,29 +19,29 @@ GET https://api.abinthomas.dev/api/fuel-price
   "fuelPrice": "105.67"
 }
 ```
-# Installation
+# Installation🛠️
 ## Prerequisites
  -> Node.js (v14.x or later)
  -> npm (v6.x or later)
  -> Git
-# Clone Repo
+# Clone Repo📋
 
 ```bash
 git clone https://github.com/abin-karukappallil/Api-Fuel-price
 cd Api-Fuel-price
 ```
-## Install Dependencies
+## Install Dependencies🔧
 
 ```bash
 npm install
 ```
 
-## Run code
+## Run code🏃‍➡️
 
 ```bash
 node main.js
 ```
-## Accessing the API
+## Accessing the API🔓
 ```bash
 http://localhost:8080/api/fuel-price
 ```
