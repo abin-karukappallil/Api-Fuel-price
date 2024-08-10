@@ -1,6 +1,6 @@
 # ⛽Fuel Price API
 
-This repository contains a simple Express.js application that API provides the latest fuel price as JSON data.
+This repository features an API that delivers the latest fuel prices in JSON format. The API allows users to retrieve up-to-date information about various types of fuel, such as gasoline and diesel, including details like the fuel type, current price, location, and timestamp of the data. By providing this information in a structured and easily readable JSON format, the API facilitates seamless integration into applications or services that need real-time fuel price updates.
 
 ## API Endpoint
 
@@ -45,5 +45,11 @@ node main.js
 ```bash
 http://localhost:8080/api/fuel-price
 ```
+### Upcoming Features
+
+Here are some planned enhancements and additional features for future releases:
+
+**Region-Wise Price List:** Expand the API to support querying fuel prices for multiple regions. Users will be able to retrieve fuel prices based on specific locations or regions.
+
 ## License
 This project is licensed under the MIT License.
