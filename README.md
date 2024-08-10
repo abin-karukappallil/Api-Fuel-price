@@ -19,31 +19,31 @@ GET https://api.abinthomas.dev/api/fuel-price
   "fuelPrice": "105.67"
 }
 ```
-# Installation🛠️
-## Prerequisites
- -> Node.js (v14.x or later)
- -> npm (v6.x or later)
+## Installation🛠️
+### Prerequisites
+ -> Node.js (v14.x or later)<br>
+ -> npm (v6.x or later)<br>
  -> Git
-# Clone Repo📋
+## Clone Repo📋
 
 ```bash
 git clone https://github.com/abin-karukappallil/Api-Fuel-price
 cd Api-Fuel-price
 ```
-## Install Dependencies🔧
+### Install Dependencies🔧
 
 ```bash
 npm install
 ```
 
-## Run code🏃‍➡️
+### Run code🏃‍➡️
 
 ```bash
 node main.js
 ```
-## Accessing the API🔓
+### Accessing the API🔓
 ```bash
 http://localhost:8080/api/fuel-price
 ```
-# License
+## License
 This project is licensed under the MIT License.
