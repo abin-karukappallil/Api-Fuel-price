@@ -21,9 +21,9 @@ GET https://api.abinthomas.dev/api/fuel-price
 ```
 ## Installation🛠️
 ### Prerequisites
- -> Node.js (v14.x or later)<br>
- -> npm (v6.x or later)<br>
- -> Git
+ * Node.js (v14.x or later)<br>
+ * npm (v6.x or later)<br>
+ * Git
 ## Clone Repo📋
 
 ```bash
