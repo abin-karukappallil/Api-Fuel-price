@@ -47,7 +47,7 @@ http://localhost:8080/api/{city-name}
 ```
 ## Available cities with fuel price details
 -----------------------
-| Districts of Kerala |
+| Available cities    |
 |---------------------|
 | Thiruvananthapuram  |
 | Kollam              |
