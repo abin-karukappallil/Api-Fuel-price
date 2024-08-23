@@ -1,6 +1,6 @@
 # ⛽Fuel Price API
 
-This repository features an API that delivers the latest fuel prices in JSON format. The API allows users to retrieve up-to-date information about various types of fuel, such as gasoline and diesel, including details like the fuel type, current price, location, and timestamp of the data. By providing this information in a structured and easily readable JSON format, the API facilitates seamless integration into applications or services that need real-time fuel price updates.
+This repository features an API that delivers the latest fuel prices(petrol) in JSON format. The API allows users to retrieve up-to-date information about various types of fuel, such as gasoline and diesel, including details like the fuel type, current price, location, and timestamp of the data. By providing this information in a structured and easily readable JSON format, the API facilitates seamless integration into applications or services that need real-time fuel price updates.
 
 ## API Endpoint
 
@@ -66,10 +66,16 @@ http://localhost:8080/api/{city-name}
 | Thrissur            |
 -----------------------
 
-## Upcoming Features sucessfully implemented
+## Features sucessfully implemented✅
 
-* **Region-Wise Price List:** Expand the API to support querying fuel prices for multiple regions. Users will be able to      
+* **Region-Wise Price List:** Expanded the API to support querying fuel prices for multiple regions. Users will be able to      
                              retrieve fuel prices based on specific location in kerala.✅
+## Upcoming features🚀
 
-## License
+* **State wise Price List:** Expand the API to support querying fuel prices for multiple states in India.<br>
+* **Adding Diesel Price List:** Expand the API to support querying diesel prices also for multiple regions.<br>
+* **Adding Previous Price Data:** Expand the api to get the previous fuel price data of the specified region.
+
+
+## License📝
 This project is licensed under the MIT License.
