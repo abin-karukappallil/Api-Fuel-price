@@ -6,17 +6,17 @@ This repository features an API that delivers the latest fuel prices in JSON for
 
 You can access the fuel price using the following endpoint:
 
-https://api.abinthomas.dev/api/fuel-price
+https://api.abinthomas.dev/api/wayanad
 
 ### Example Request
 
 ```http
-GET https://api.abinthomas.dev/api/fuel-price
+GET https://api.abinthomas.dev/api/kottayam
 ```
 ### Example Response
 ```http
 {
-  "fuelPrice": "105.67"
+  "fuelPrice-Kottayam": "105.67"
 }
 ```
 ## Installation🛠️
@@ -43,14 +43,33 @@ node main.js
 ```
 ### Accessing the API🔓
 ```bash
-http://localhost:8080/api/fuel-price
+http://localhost:8080/api/{city-name}
 ```
-## Upcoming Features
+## Available cities with fuel price details
+-----------------------
+| Districts of Kerala |
+|---------------------|
+| Thiruvananthapuram  |
+| Kollam              |
+| Pathanamthitta      |
+| Alappuzha           |
+| Kottayam            |
+| Idukki              |
+| Ernakulam           |
+| Thrissur            |
+| Palakkad            |
+| Malappuram          |
+| Kozhikode           |
+| Wayanad             |
+| Kannur              |
+| Kasaragod           |
+| Thrissur            |
+-----------------------
 
-Here are some planned enhancements and additional features for future releases:
+## Upcoming Features sucessfully implemented
 
 * **Region-Wise Price List:** Expand the API to support querying fuel prices for multiple regions. Users will be able to      
-                             retrieve fuel prices based on specific locations or regions.
+                             retrieve fuel prices based on specific location in kerala.✅
 
 ## License
 This project is licensed under the MIT License.
