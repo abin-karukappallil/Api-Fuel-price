@@ -22,7 +22,7 @@ async function fuelKerala() {
     throw new Error('Error loading data');
   }
 }
- 
+   
 app.get('/api/alappuzha', async (req, res) => {
   try {
     const alappuzha = await fuelKerala();
