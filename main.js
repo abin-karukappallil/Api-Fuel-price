@@ -9,20 +9,20 @@ async function fuelKerala() {
     const response = await axios.get(url);
     const $ = cheerio.load(response.data);
 
-    const prices = [];
-    $('tbody tr').each((index, element) => {
-      const price = $(element).find('td:nth-child(2) div:nth-child(1) span:nth-child(1)').text().trim();
-      if (price) {
-        prices.push(price);
-      }
-    });
-    return prices;
-  } catch (e) {
-    console.error('Error loading data:', e); 
-    throw new Error('Error loading data');
-  }
-}
-
+//     const prices = [];
+//     $('tbody tr').each((index, element) => {
+//       const price = $(element).find('td:nth-child(2) div:nth-child(1) span:nth-child(1)').text().trim();
+//       if (price) {
+//         prices.push(price);
+//       }
+//     });
+//     return prices;
+//   } catch (e) {
+//     console.error('Error loading data:', e); 
+//     throw new Error('Error loading data');
+//   }
+// }
+   
 app.get('/api/alappuzha', async (req, res) => {
   try {
     const alappuzha = await fuelKerala();
