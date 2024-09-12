@@ -5,7 +5,7 @@ This repository features an API that delivers the latest fuel prices(petrol) in 
 ## API Endpoint
 
 You can access the fuel price using the following endpoint:
-
+  
 https://api.abinthomas.dev/api/wayanad
 
 ### Example Request
