@@ -1,6 +1,5 @@
 # ⛽Fuel Price API
 
-
 This repository features an API that delivers the latest fuel prices(petrol) in JSON format. The API allows users to retrieve up-to-date information about various types of fuel, such as gasoline and diesel, including details like the fuel type, current price, location, and timestamp of the data. By providing this information in a structured and easily readable JSON format, the API facilitates seamless integration into applications or services that need real-time fuel price updates.
 
 ## API Endpoint
