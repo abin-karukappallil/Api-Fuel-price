@@ -9,7 +9,7 @@ You can access the fuel price using the following endpoint:
 https://api.abinthomas.dev/api/wayanad
 
 ### Example Request
-
+  
 ```http
 GET https://api.abinthomas.dev/api/kottayam
 ```
