@@ -65,7 +65,7 @@ http://localhost:8080/api/{city-name}
 | Thrissur            |
 -----------------------
 
-## Features sucessfully implemented✅
+## Features Successfully implemented✅
 
 * **Region-Wise Price List:** Expanded the API to support querying fuel prices for multiple regions. Users will be able to      
                              retrieve fuel prices based on specific location in kerala.✅
